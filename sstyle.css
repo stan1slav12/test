@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.one{
+  
+  text-indent: 20px;
+  text-transform: uppercase;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+.two{
+  color:green;
+  text-transform: capitalize;
+  text-align: justify;
+  text-decoration: overline;
+  font-family: 'Seymour One',sans-serif;
+}
+
+@font-face {
+  font-family: 'Seymour One';
+  src: url('SeymourOne-Regular.woff') format('woff');
+  
+}
+
+@font-face {
+  font-family: 'Seymour One';
+  src: url('SeymourOne-Regular.woff2') format('woff2');
+}
